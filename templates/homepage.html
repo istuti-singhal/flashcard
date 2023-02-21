@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="static/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <style>
+        #MainloginArea {
+            margin: auto;
+            height: 400px;
+            width: 500px;
+            text-align: center;
+            font-family: 'Special Elite', cursive;
+            font-size: 25px;
+            text-align: end;
+        }
+
+        #mainbreak{
+            height: 100px;
+            width: 100%;
+            
+        }
+    </style>
+    <title>Home Page</title>
+</head>
+<body style="background-color: rgb(185, 247, 244);">
+    <div class="header">
+        <h1 >Welcome to My FlashCard App</h1>
+    </div>
+    <div id="mainbreak"></div>
+    <div id="MainloginArea">
+    <h2 >User Login</h2>
+    <form method="POST">
+        <input type="text" aria-label="First name" class="form-control" placeholder="UserName", name = "Username">
+        <br>
+        <input type="password" aria-label="Last name" class="form-control" placeholder="Password" name="Password", id="">
+        <br>
+        <input type="submit" class="btn btn-dark" value="Submit">
+
+    </form>
+    <a href="/register">Register</a>
+    </div>
+    
+
+</body>
+</html>

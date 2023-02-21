@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="static/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <style>
+        #MainloginArea {
+            margin: auto;
+            height: 400px;
+            width: 500px;
+            font-family: 'Niconne', cursive;
+            font-size: 30px;
+            text-align: left;
+        }
+
+        #mainbreak{
+            height: 150px;
+            width: 100%;
+        }
+    </style>
+    
+    <title>Registration Page</title>
+</head>
+<body style="background-color: rgb(255, 214, 200);">
+    <div id="mainbreak"></div>
+    <div id="MainloginArea">
+        <h2>Welcome User, it seems that you are not registered in the system</h2>
+        <h3>Please spend a moment and register yourself</h3>
+        
+        <form method="POST">
+            <input class="form-control" placeholder="Desired UserName" name="DUsername">
+            <br>
+            <input class="form-control" placeholder="Desired Password" name="DPassword" type="password">
+            <br>
+            <input class="form-control" placeholder="Your Email Address" name = EmailUser>
+            <input type="submit" class="btn btn-dark">
+        </form>
+    </div>
+    
+</body>
+</html>

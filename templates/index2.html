@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Card App</title>
+    <link  rel="stylesheet" href="static/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body onload="getRandomWord()">
+    <h1 class="title">Learn Japanese with the following cards!!</h1>
+
+    <div class="term">
+        <h3>Term</h3>
+    </div>
+
+    <div class="definition">
+        <h3>Definition</h3>
+    </div>
+    <br>
+
+    <div class="button">
+        <button class="check">Check Definition</button>
+        <button class="next">Next Definition</button>
+    </div>
+
+
+
+
+    <br>
+    <p style="text-align: center; background-color: rgb(192, 192, 46);">How difficult did you find the term?(1:Easy, 2:Moderate, 3: Hard)</p>
+    <p style="text-align: center;"><input type="radio" id="easy" name="rating" value="easy">
+    <label for="easy">1</label>
+    <input type="radio" id="moderate" name="rating" value="moderate">
+    <label for="moderate">2</label>
+    <input type="radio" id="hard" name="rating" value="hard">
+    <label for="hard">3</label></p>
+    <br>
+    <p style="text-align: center;"><a href="eng_to_jpn" >Submit</a></p>
+    <p style="text-align: center;"><a href="/" >Go To HomePage</a></p>
+
+    <script src="static/myapp2.js"></script>
+</body>
+</html>
